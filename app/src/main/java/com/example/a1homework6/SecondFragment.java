@@ -44,12 +44,17 @@ public class SecondFragment extends Fragment implements OnItemClick{
 
     private void loadData() {
         list = new ArrayList<>();
-        list.add(new Model("1", "udtth", "etyt", "4:54"));
-        list.add(new Model("1", "udtth", "etyt", "4:54"));
-        list.add(new Model("1", "udtth", "etyt", "4:54"));
-        list.add(new Model("2", "udtth", "etyt", "4:54"));
-        list.add(new Model("2", "udtth", "etyt", "4:54"));
-        list.add(new Model("2", "udtth", "etyt", "4:54"));
+        list.add(new Model("1", "Blank Space", "Taylor Swift", "3:22"));
+        list.add(new Model("2", "Watch me", "Silento", "5:36"));
+        list.add(new Model("3", "Earned It", "The Weekend", "4:51"));
+        list.add(new Model("4", "The Hills", "The Weekend", "3:41"));
+        list.add(new Model("5", "Writing's On The Wall" , "The Weekend", "4:54"));
+        list.add(new Model("6", "Writing's On The Wall" , "The Weekend", "4:54"));
+        list.add(new Model("7", "Writing's On The Wall" , "The Weekend", "4:54"));
+        list.add(new Model("8", "Writing's On The Wall" , "The Weekend", "4:54"));
+        list.add(new Model("9", "Writing's On The Wall" , "The Weekend", "4:54"));
+        list.add(new Model("10", "Writing's On The Wall" , "The Weekend", "4:54"));
+
     }
 
     @Override
